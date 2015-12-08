@@ -8,9 +8,9 @@ int main(void)
     /// ask for user input, then validate.///
     
         do printf("please give me a value between 0-23:\n"); 
-        }
-        v =GetInt();
         {
+        v =GetInt();
+        }
         while (v > 0 && v <=23);
     
 }
